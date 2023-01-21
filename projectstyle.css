@@ -285,9 +285,37 @@ position:absolute;
 }
 
 
+/*Media screen visibility style...............................*/
 
-
-
+@media screen and (max-width:600px)
+{
+ .menu-bar{
+  width:338px;
+  font-size:12px;
+ }
+ .menu-bar h2{
+    margin: 25px 50px;
+    padding: 0 5;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    transform: translate(-30%,-30%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: #ccc;
+    text-transform: uppercase;
+}
+ .logbtn{
+        margin-top: -55px;
+        margin-left: 250px;
+        width: 70px;
+        height: 30px;
+        border: 1px solid blue;
+        border-radius:10px;
+        background-color: blue;
+        color:white;
+    }
+}
 
 
 
