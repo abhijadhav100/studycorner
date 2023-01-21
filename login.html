@@ -1,0 +1,93 @@
+<html>
+<head>
+<style type="text/css" language="css">
+.container{
+ width:400px;
+ height:500px;
+ border-radius:40px;
+ background-color:black;
+ margin:60px 430px;
+ box-shadow:0px 5px 20px blue;
+}
+h2{
+position:absolute;
+margin:70px 156px;
+color:white;
+font-family:cursive;
+font-size:50px;
+text-decoration:underline;
+}
+.email{
+position:absolute;
+margin:180px 50px;
+width:300px;
+height:40px;
+padding:0 30px;
+border-radius:20px;
+color:black;
+border:2px solid black;
+}
+.pass{
+position:absolute;
+margin:250px 50px;
+width:300px;
+height:40px;
+padding:0 30px;
+border-radius:20px;
+color:black;
+border:2px solid black;
+}
+.btn{
+position:absolute;
+margin:350px 150px;
+width:100px;
+height:40px;
+padding:0 30px;
+border-radius:20px;
+color:black;
+border:2px solid black;
+font-family:monospace;
+font-weight:bold;
+}
+a {
+position:absolute;
+margin:400px 114px;
+padding:0 30px;
+color:royalblue;
+text-decoration:underline;
+font-family:serif;
+font-size:14px;
+}
+</style>
+<script type="text/javascript" language="javascript">
+
+function validate_email()
+{
+var uemail=document.form1.email;
+var mailformat=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(uemail:not(.match)=(mailformat))
+  {
+   alert("You have entered an invalid email address!");
+   email.focus();
+   return false;
+  }
+ else
+  {
+   return true;
+  }
+}
+
+</script>
+</head>
+<body>
+<div class="container">
+<h2>login</h2>
+   <form name="form1">
+     <input type="text" name="email" placeholder="Email Id..." class="email">
+     <input type="password" name="passwd" placeholder="Password..." class="pass">
+     <input type="submit" name="submit" class="btn" value="login" onclick=validate_email()>
+   </form>
+   <a href="credit.html">Create Account</a>
+</div>
+</body>
+</html>
