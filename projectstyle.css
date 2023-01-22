@@ -142,7 +142,12 @@ input:focus {
 /* == you can click the close button to remove text == */
 .reset {
   border: none;
-  background: none;
+  background: none;    Settings
+
+studycorner/
+in
+main
+
   opacity: 0;
   visibility: hidden;
 }
@@ -287,8 +292,16 @@ position:absolute;
 
 /*Media screen visibility style...............................*/
 
-@media screen and (max-width:600px)
+@media only screen and (max-width:480px)
 {
+    body{
+    width:100%;
+    height:100%;
+    padding:0px;
+    margin:0px;
+    overflow-x:hidden;
+    }
+    
  .menu-bar{
   width:338px;
   font-size:12px;
@@ -314,9 +327,39 @@ position:absolute;
         border-radius:10px;
         background-color: blue;
         color:white;
-    }
+    }    Settings
+
+studycorner/
+in
+main
+
 }
 
+    Settings
+
+studycorner/    Settings
+    Settings
+
+studycorner/
+in
+main
+
+studycorner/    Settings
+
+studycorner/    Settings
+
+studycorner/
+in
+main
+
+in
+main
+
+in
+main
+
+in
+main
 
 
 
